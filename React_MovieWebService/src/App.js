@@ -6,9 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/hello" element={<h1>Hello!</h1>}></Route>
         <Route path="/movie/:id" element={<Detail />}></Route>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/MiniProjects" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
   );
